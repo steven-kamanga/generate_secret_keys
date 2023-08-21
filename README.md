@@ -48,5 +48,5 @@ Generate a random key with a length of 20 characters, using characters ranging f
 
 ## Note
 
-The Random Key Generator is a simple and fun project that showcases the usage of cryptographic concepts to enhance key security. It's important to keep security practices in mind when using keys for sensitive applications.
+The Random Key Generator is a simple project that showcases the usage of cryptographic concepts to enhance key security. It's important to keep security practices in mind when using keys for sensitive applications.
 ```
