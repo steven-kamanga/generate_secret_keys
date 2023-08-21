@@ -1,6 +1,3 @@
-Certainly! Here's the raw Markdown content:
-
-```markdown
 # Random Key Generator
 
 ## Key Generator
