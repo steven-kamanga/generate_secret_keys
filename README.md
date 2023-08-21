@@ -2,7 +2,7 @@
 
 ## Key Generator
 
-The Random Key Generator is a fun and interactive command-line tool that allows you to create secure random keys by mixing characters from a specified range and adding a unique salt. This tool utilizes cryptographic hashing to ensure the security of the generated keys.
+The Random Key Generator is a fun and interactive command-line tool that allows you to create secure random keys by mixing characters from a specified range and adding a unique salt.
 
 ## Usage
 
@@ -44,8 +44,6 @@ Generate a random key with a length of 20 characters, using characters ranging f
 ## Features
 
 - Generates secure random keys using a specified range of characters.
-- Mixes the key with a salt to enhance security.
-- Utilizes the SHA-256 cryptographic hash function for secure mixing.
 - Customizable key length, character range, and output location.
 
 ## Note
