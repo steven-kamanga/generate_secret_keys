@@ -2,7 +2,7 @@
 
 ## Key Generator
 
-The Random Key Generator is a fun and interactive command-line tool that allows you to create secure random keys by mixing characters from a specified range and adding a unique salt.
+The Random Key Generator is an interactive command-line tool that allows you to create secure random keys by mixing characters from a specified range and adding a unique salt.
 
 ## Usage
 
