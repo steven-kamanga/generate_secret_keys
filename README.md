@@ -1,3 +1,3 @@
 # Random Key Generator
 
-## Usage: generate --length <int:length> --from <string:from> --to <string:to> -o </home/user/...>
+- Usage: generate -l <int:length> -f <string:from> -t <string:to> -o </home/user/...>
