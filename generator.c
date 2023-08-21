@@ -15,9 +15,14 @@ char *generate_key(int length, char from, char to, const char *salt) {
     }
     key[length] = '\0';
 
-    char *final_key = (char *)malloc((length + strlen(salt) + 1) * sizeof(char));
-    strcpy(final_key, key);
-    strcat(final_key, salt);
+    int salt_length = strlen(salt);
+    char *final_key = (char *)malloc((length + salt_length + 1) * sizeof(char));
+
+    for (int i = 0; i < length; ++i) {
+        final_key[i] = key[i] ^ salt[i % salt_length];
+    }
+
+    final_key[length] = '\0';
 
     free(key);
 
