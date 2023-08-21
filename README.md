@@ -21,7 +21,7 @@ Replace the placeholders with the appropriate values for your desired key genera
 2. **Compilation**: Compile the code files using the following command:
 
    ```bash
-   gcc main.c generator.c file_writer.c -o key_generator
+   gcc main.c generator.c file_writer.c -o key_generator -lcrypto
    ```
 
 3. **Run**: Execute the generated binary to use the Random Key Generator.
